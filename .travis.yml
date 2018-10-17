@@ -21,6 +21,11 @@ install:
 
 # activate the environment
 - source activate test-env
+
+# build notifications
+notifications:
+    slack: se491-fall2018:ccqfPhe1cEHeZJlQgCOe3m8C
+    
 script:
 #  run tests
   - python manage.py test
