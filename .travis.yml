@@ -10,7 +10,7 @@ install:
 - conda update --quiet conda
 
 # useful for debugging
-- conda info --add
+- conda info -a
 
 # Set the priority of channels
 - conda config --add channels conda-forge
